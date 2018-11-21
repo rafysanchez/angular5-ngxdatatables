@@ -18,7 +18,9 @@ export class AppComponent {
 
   getData() {
     this.afs.collection('students').valueChanges().subscribe((students) => {
-      this.rows = students;
-    })
+     this.rows = students;
+    console.log(this.rows);
+     // this.rows = null;
+    });
   }
 }

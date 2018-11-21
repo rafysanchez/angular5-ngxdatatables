@@ -9,7 +9,7 @@ import { AngularFirestoreModule } from 'angularfire2/firestore';
 
 import { environment } from '../environments/environment';
 
-//Datatable
+// Datatable
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 
 
